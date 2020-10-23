@@ -1,0 +1,12 @@
+aside {
+    width: 330px;
+    float: left;
+}
+main {
+    width: 660px;
+    float: left;
+}
+
+#autor {
+    text-align: center;
+}
