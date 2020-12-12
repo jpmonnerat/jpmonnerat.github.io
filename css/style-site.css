@@ -1,0 +1,164 @@
+
+/**Modificando o body*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+
+/**Modificações gerais*/
+
+header{
+    margin: 0 15px;
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(144,64,23,0.45),rgba(218,68,83,0.45),rgba(238,143,73,0.45),rgba(255,206,84,0.45),rgba(140,193,82,0.45), rgba(59,175,218,0.45), rgba(150,122,220,0.45));
+}
+
+p{
+    margin: 0px;
+    color: #434A54;
+}
+h1{
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+    color: #434A54;
+}
+
+h3{
+    font-size: 20px;
+    color: #434A54;
+}
+/*? Modificando os id e classes*/
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header h1{
+    color: #434A54;
+    display: inline;
+    font-size: 56px;
+    margin: auto;
+    margin-bottom: -65px;
+}
+
+#header-menu{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item{
+    font-size: 20px;
+    padding-right: 26px;
+}
+.menu-item a{
+    color: #434A54;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    padding: 10px;
+    border: 1px solid #5a63df;
+    border-radius: 25px;
+}
+
+#post{
+    display: flex;
+    float: left;
+    justify-content: left;
+}
+
+#video h3{
+    background-color:rgba(218,68,83,0.45);
+    margin-left: 50px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#video iframe{
+    margin-left: 50px;
+}
+
+#column{
+    position: absolute;
+    left: 950px;
+}
+
+#column h3{
+    margin-left: 50px;
+    background-color: rgba(218,68,83,0.45);
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#column p{
+    margin-left: 15px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.clear{
+    clear: both;
+    border-top: 1px solid #434A54;
+    margin: 0px 50px;
+}
+
+/**Customizando o storytelling */
+
+#title{
+    background-color: rgba(238,143,73,0.45);
+    display: inline-block;
+    margin: 15px  0px 0px 50px;
+}
+
+.circle1{
+    margin:15px 0px 0px 60px;
+    height: 60px;
+    width: 60px;
+    background-color: #434A54;
+    border-radius: 50px;
+    text-align: center;
+    color: #434A54;
+}
+
+.circle2{
+    margin:0px 0px 0px 60px;
+    height: 60px;
+    width: 60px;
+    background-color: #434A54;
+    border-radius: 50px;
+    text-align: center;
+    color: #434A54;
+}
+
+#t_1969{
+    position: absolute;
+    top: 875px;
+    left: 150px;
+    background-color: rgba(246,187,66,0.45);
+}
+
+#t_1977{
+    position: absolute;
+    left: 150px;
+    top: 1105px;
+    background-color: rgba(140,193,82,0.45);
+}
+
+.p_history{
+    position: absolute;
+    left: 150px;
+}
+
+.line{
+    height: 170px;
+    margin-left: 90px;
+    border-left: 1px solid black;
+}
