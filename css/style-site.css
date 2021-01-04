@@ -1,7 +1,7 @@
 
 /**Modificando o body*/
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
     margin: 0px;
     background-color: #f2f2f2;
 }
@@ -81,6 +81,8 @@ h3{
 }
 
 #video iframe{
+    width: 900px; 
+    height: 450px;
     margin-left: 50px;
 }
 
@@ -152,13 +154,132 @@ h3{
     background-color: rgba(140,193,82,0.45);
 }
 
+#t_1980{
+    position: absolute;
+    left: 150px;
+    top: 1340px;
+    background-color: rgba(59,175,218,0.45);
+}
+
+#t_1983{
+    position: absolute;
+    left: 150px;
+    top: 1565px;
+    background-color: rgba(150,122,220,0.50);
+}
+
+#t_1985{
+    position: absolute;
+    left: 150px;
+    top: 1795px;
+    background-color: rgba(67,74,84,0.40);
+}
+
+#t_1990{
+    position: absolute;
+    left: 150px;
+    top: 2026px;
+    background-color: rgba(144,64,23,0.40);
+}
+
+#t_1992{
+    position: absolute;
+    left: 150px;
+    top: 2258px;
+    background-color: rgba(218,68,83,0.45);
+}
+
+#t_1996{
+    position: absolute;
+    left: 150px;
+    top: 2487px;
+    background-color: rgba(238,143,73,0.45);
+}
+
+#t_1997{
+    position: absolute;
+    left: 150px;
+    top: 2715px;
+    background-color: rgba(248,187,66,0.75);
+}
+
+#t_2005{
+    position: absolute;
+    left: 150px;
+    top: 2949px;
+    background-color: rgba(140,193,82,0.45);
+}
+
+#t_2019{
+    position: absolute;
+    left: 150px;
+    top: 3178px;
+    background-color: rgba(59,175,218,0.45);
+}
+
 .p_history{
     position: absolute;
     left: 150px;
+}
+.p_history p a{
+    text-decoration: none;
+    color: #1034d6;
 }
 
 .line{
     height: 170px;
     margin-left: 90px;
     border-left: 1px solid black;
+}
+
+/**customizando o botão de esconder o conteúdo*/
+
+#show{
+    margin-top: 10px;
+    margin-left: 45%;
+    margin-bottom: 10px;
+    color: #101216;
+}
+#show:hover{
+    cursor: pointer;
+}
+
+#hide{
+    margin-left: 5px;
+    color: #101216;
+}
+#hide:hover{
+    cursor: pointer;
+}
+
+/**Customizando o quadro de imagens*/
+
+/**Customizando o footer*/
+#footer{
+    margin: 5px 15px 0px 15px;
+    background-color: rgba(170,178,189,0.60);
+}
+#footer p{
+    text-align: center;
+}
+
+#references{
+    margin: 10px;
+}
+
+#references h6{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+#bibliography{
+    margin: auto;
+    margin-left: -35px;
+    list-style-type: none;
+}
+
+#bibliography a{
+    text-decoration: none;
+    color: #1034d6;
 }

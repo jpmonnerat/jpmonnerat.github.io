@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Projeto Web 2020</title>
+    <!--Usando o slick para fazer o caroussel-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <!--Normalize CSS para normalizar a customização em todos os navegadores-->
     <link rel="stylesheet" href="css/normalize.css">
     <!--CSS customizado-->
@@ -18,10 +21,10 @@
         </div>
     </header>
 
-    <section id="post">
+    <section id="post"><!--Inicio do section / vídeo introdutivo-->
         <article id="video">
             <h3>Entendendo a história: um vídeo explicativo sobre o movimento LGBTQIA+</h3>
-            <iframe width="900px" height="450px" src="https://www.youtube.com/embed/XVNOCD1baTQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            <iframe src="https://www.youtube.com/embed/XVNOCD1baTQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
         </article>
     </section>
     <section>
@@ -33,29 +36,145 @@
     </section>
     <div class="clear"></div>
 
-    <div>
+    <div><!--Inicio da storytelling LGBTQIA+-->
         <h2 id="title">Retrato histórico da luta pelo movimento LGBTQIA+</h2>
         <div>
             <div class="circle1"></div>
             <h2 id="t_1969">1969: Stonewall</h2>
-            <p class="p_history">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum suscipit tempora veritatis. Optio est sapiente unde natus. Iusto aliquam rerum quasi saepe molestias minus sint, dignissimos animi officiis tenetur totam!
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam recusandae temporibus dolorem soluta libero pariatur quisquam ut, nisi modi ab non laboriosam totam obcaecati rerum aperiam id ea quia provident.Voluptates, architecto! Vero doloremque distinctio cumque nisi, corrupti soluta tempore alias voluptates laudantium hic quo veniam beatae, eveniet nobis? Hic voluptatem tempore, nostrum magnam beatae voluptatum voluptate incidunt repudiandae ad? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur esse sit recusandae minus rem? Omnis dolorem unde voluptatum provident veniam corporis maiores aut explicabo aliquid laborum. Aliquid consequuntur illum impedit.
-            Odio ea necessitatibus est, quisquam, ipsum rem architecto voluptates incidunt eaque nesciunt cumque temporibus, laborum officia. Eaque, qui nesciunt eveniet nobis modi rem voluptatum veritatis quidem nemo iure quam et!
-            Quae architecto laborum pariatur ex soluta, tempora neque aliquid sit illo atque laudantium autem. Consectetur, alias ea. Eveniet alias voluptate sint nemo minus itaque, harum ipsum? Odit unde minus vel?</p>
+            <div class="p_history">
+                <p> Tudo começou na virada do dia <strong>28 para o dia 29 de junho de 1969,</strong> em New York, em um tempo que era ilegal ter um relacionamento com alguém do mesmo sexo que você. Porém, após muita repressão policial, as autoridades viram um "basta" da comunidade em um bar local chamado <strong>Stonewall Inn.</strong></p>
+                <p>Pedras foram atiradas contra a polícia. Prisões foram feitas, num motim histórico que marcou o início de uma nova era para a comunidade LGBT. Na época, o motim foi referenciado em pequenas notas nos jornais americanos, mas que marcaria o início de uma longa luta para a comunidade e qualquer um que defenda a causa.</p>
+                <p> É interessante citar também, que por muito tempo Stonewall era apenas um marco da luta gay. Porém, análises foram feitas, arquivos e relatos foram utilizados, viram que houve participação de mulheres trans negras e, com isso, trouxe todo um ressignificado ao evento da revolta. Fazendo que houvesse um maior reconhecimento de outros espectros dentro da sigla LGBTQ para o ocorrido de 1969.</p></div>
             <div class="line"></div>
 
             <div class="circle2"></div>
             <h2 id="t_1977">1977: 1° homem gay na política</h2>
-            <p class="p_history">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempora fugit nobis dolor in nesciunt doloribus, aspernatur sed unde hic deleniti, beatae cupiditate rerum numquam illum culpa, earum nulla id.
-            Cumque aliquam architecto nihil dolor fugit dicta aspernatur maxime atque dolorum facilis tempora consequatur quos ratione, consectetur provident similique vitae voluptas voluptates ipsum corporis, modi ipsam! Quam repudiandae quis ea?
-            Delectus architecto voluptatibus repellat commodi, fugiat vero, modi placeat eaque, sit vitae voluptates ab nesciunt? Voluptas, dolore minima impedit incidunt ipsam illo sed soluta dolores. Debitis possimus minus illum quaerat.
-            Cum, et, ipsum obcaecati odio fugit nobis officia praesentium consequatur cupiditate consectetur atque quod officiis eaque beatae repellendus deserunt aperiam iusto, eligendi ipsa velit. Nesciunt distinctio quo incidunt assumenda dolorum.
-            Dicta eaque sapiente totam quod iure ab velit autem, quidem rem, eius ullam nobis! Natus alias modi in iure deserunt nemo veritatis, corrupti repellat labore dolore sapiente aliquid commodi accusamus.</p>
+            <div class="p_history">
+                <p>Em 1977 o estado da Califórnia conhecia seu primeiro político abertamente gay, <strong>Harvey Milk.</strong> Sua eleição e, consequentemente, seu assassinato um ano após assumir seu cargo, foram um marco na luta por representatividade na vida pública.</p>
+                <p>Foi apenas 8 anos após Stonewall que a comunidade LGBTQI+ conseguiu um representante político que defendia suas causas. Aliás, veio de Milk a ideia da famosa bandeira que conhecemos hoje, junto com um artista <strong>Gilbert Baker,</strong> Milk pedira para que ele desenhasse um simbolo para o movimento e dessa ideia veio a <strong>bandeira do arco-íris.</strong> E em 1978, a bandeira ganhou vida e representa as causas LGBTQIA+ até hoje por todo o mundo.</p>
+                <p>A eleição de Milk é marcante não só por ter sido o 1° homem gay assumido em um cargo público. Mas sim, por ter vencido uma perseguição que ocorreu no país até a década de 60.</p>
+                <p>Em 1953, o presidente Eisenhouwer declarou que gays e lésbicas eram uma "ameaça" para os cargos públicos do país. Fazendo que houvesse uma onda de demições. Apenas 24 anos depois, Milk apareceu, na contramão de todo o preconceito político do país, mostrando que a comunidade LGBTQIA+ teriam alguém que representasse eles.</p>
+            </div>
 
+            <div id="btn"><!--Inicio do conteúdo escondido-->
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_1980">1980: O "Stonewall Brasileiro"</h2>
+                <div class="p_history">
+                    <p>1980 foi um ano crucial, foi o ano que houve o <strong>Primeio Encontro Brasileiro de Homossexuais,</strong> em São Paulo, marco da organização do movimento em escala nacional, e também quando ocorre o primeiro protesto da causa - Contra a "Operação Limpeza", operação cujo a polícia passava por áreas de frequências gays e os prendiam por vadiagem.</p>
+                    <p>Homossexuais, travestis e prostitutas eram sistematicamente espancados. Até um grupo de homossexuais, juntamente com dos movimentos negro e feminista, organizou um prostesto nas escadarias do <strong>Theatro Municipal,</strong> em <strong>13 de junho de 1980.</strong> Foi a primeira vez que ocorreu uma marcha contra a repressão e preconceito lgbtfóbico no Brasil(muito antes de existir).</p>
+                    <p>Em 1980 também foi o ano que nasceu a fundação <strong>Grupo Gay da Bahia,</strong> o primeiro grupo a lutar contra a homofobia do país.</p>
+                    
+                </div>
+
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_1983">1983: O L da sigla ganha voz</h2>
+                <div class="p_history">
+                    <p>O episódio ocorreu em <strong>Ferros's bar,</strong> em São Paulo: foi após um grupo de lésbicas serem expulsas por divulgar um jornal ativista.</p>
+                    <p>Esse momento foi a gota d'água em uma situação de invisibilidade que ocorria no "movimento", mesmo no grupo Somos, elas não tinham igualdade com os gays. Com isso, um desentendimento deu origem ao <strong>Grupo de Ação Lésbica Feministas,</strong> que em 1981, lançaram a primeira publicação ativista lésbicas do país.</p>
+                    <p>Como era no Ferro's que elas divulgavam seus trabalhos, um protesto foi organizado e,  junto com a imprensa, fizeram os donos do bar voltarem atrás com a decisão. </p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_1985">1985: A AIDS une a luta</h2>
+                <div class="p_history">
+                    <p>Desde que a dita <strong>"peste gay"</strong> passou a frequentar o noticiário no começo dos anos 80, serviu para aumentar de forma exponencial o preconceito e ignorância contra a comunidade LGBTQIA+.</p>
+                    <p>Usavam religião como justificativa, "punição divina, o câncer gay". Tais palavras aumentaram ainda mais o preconceito e a violência contra os gays. Grupos foram dissolvidos, muitos voltaram pro "armário". 1985 parecia que seria um ponto sem volta para a causa gay. É nesta mesma época que é criado o <strong>GAPA (Grupo de Apoio à Prevenção à AIDS),</strong>primeira ONG da América Latina na luta contra o HIV - e é quando um programa federal de controle da AIDS é criado. Criado sob pressão do movimento que nascera poucos anos antes focado em direitos civis e libertação sexual.</p>
+                    <p>É em 1985 que também surge o <strong>grupo Triângulo Rosa,</strong> do Rio, que se junta a outros, como o Grupo Gay da Bahia, no apoio às vítimas e às campanhas de esclarecimento - porém com uma luta mais simbólica: pressionar o Conselho Federal de Medicina a retirar a homossexualidade da lista de doenças.</p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_1990">1990: OMS retira homossexualidade como distúrbio psiquiátrico</h2>
+                <div class="p_history">
+                    <p>Há 30 anos que ser gay não é sinônimo de estar doente, ou ter alguma doença psicológica. Porém, foi apenas no ano de 1990 que a OMS retirou a homossexualidade da lista de disturbios psiquiátricos de sua <strong>Classificação Estatística Internacional de Doenças(CID),</strong>uma espécie de glossário utilizado por médicos como referências por todo o mundo. Mas foi uma conquista pela metade.</p>
+                    <p>A transexualidade só deixou de ser doença para a OMS em junho de 2018. Ainda hoje, segundo a <strong>Associação Internacional de Gays, Lésbicas, Bissexuais, Trans e Intersexuais(ILGA), ser LGBTQI+ é crime em mais de 70 páises-</strong>em alguns existe até punições e em casos mais extremos, a punição é a pena de morte.</p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_1992">1992: A letra T é introduzida à sigla</h2>
+                <div class="p_history">
+                    <p>No dia 15 de maio de 1992 é fundada a <strong>Associação de Travestis e Liberados(Astral),,</strong>no Rio - primeira ONG voltadas para travestis da América Latina</p>
+                    <p>Era o início do <strong>Movimento Nacional de Travestis e Transexuais.</strong> Um marco para o movimento já que nunca houve um foco e verba voltado para a comunidade transexual, o foco sempre foi nos homens CIS gays. Com a criação do Movimento, os travestis começaram a ganhar mais foco, mais representatividade como, por exemplo, no Piauí, onde uma vereadora trans conseguiu ser eleita. A partir daí, a comunidade transexual começou a traçar seus próprios objetivos.</p>
+                    
+                </div>
+
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_1996">1996: A letra I é introduzida à sigla</h2>
+                <div class="p_history">
+                    <p>Se existe uma letra na imensa sigla LGBTQIA+ que sofre com preconceito, ignorância e com a invisibilidade de representatividade é o I do Intersexo.</p>
+                    <p><strong>Cerca de 1,7% da população mundial é intersexo,</strong> segundo a própria ONU - com a mesma proporção de pessoas ruivas e/ou gêmeas, pontuam os ativistas-, mas sua existência é rodeada de preconceito.</p>
+                    <p>O que é especificamente grave, visto que uma cirurgia numa criança recém nascida pode mudar sua vida completamente. Não é à toa que no dia 26 de Outubro de 1996, um grupo de ativistas intersexo protestaram publicamente contra a <strong>"cirurgia cosmética"</strong> em bebês nascidos com anatomia sexual ou reprodutiva que nao cabem na definição de masculino ou feminino.</p>
+                    <p>Atualmente, o dia 26 de Outubro é o <strong>Dia Mundial da Visibilidade Intersexual.</strong></p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_1997">1997: 1° parada do Orgulho LGBTQ no Brasil</h2>
+                <div class="p_history">
+                    <p>Quase três décadas após os primeiros protestos nos Estados Unidos, começava a ser consolidado eventos (paradas) aqui no Brasil. Claro que não foi por falta de tentativa antes, passamos por uma ditadura, uma epidemia de HIV e uma luta imparável contra o preconceito e a violencia à comunidade LGBTQIA+.</p>
+                    <p>Havia uma representativiade no congresso com o <strong>João Mascarenhas,</strong> na TV com o <strong>Luiz Mott</strong> dando entrevistas e com a <strong>Marta Suplicy</strong> na tentativa de criar projetos voltados para a área. Nesse mesmo tempo, ocorrou um reflorescimento de grupos e associações no Brasil afora.</p>
+                    <p>Há, controvérsias sobre o marco de 1997. Já que em 95, ocorreu uma marcha no Rio; em Curitiba, algumas centenas se juntaram para um pequeno ato. E em 96, o mesmo ocorreu em São Paulo. Mas a primeira parada pensada, planejada para São Paulo foi apenas em 1997, uma parada que não seria exclusiva apenas para os LGBTQIA e sim para todos que defendessem a causa.</p>
+                    <p>Hoje, a <strong>Parada do Orgulho LGBT</strong> atrai mais de milhões de pessoas e é umas das maiores paradas do mundo.</p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_2005">2005: Ser LGBT no Brasil é difícil. Ser um LGBT negro é muito mais</h2>
+                <div class="p_history">
+                    <p>Criado em 2005 a <strong>Rede Afro LGBT</strong> tem o propósito de lembrar que classe e raça são marcadores de desigualdade. Afinal, se já é difícil ser um LGBT, ser um LGBT negro é infinitamente mais difícil, são esses quem sofrem com maiores índices de violência.</p>
+                    <p>Quando discutido no movimento LGBT, a pauta racial era completamente ignorada, pois não era um problema de orientação e/ou identidade.<strong> O LGBT negro,</strong> no Brasil, sofre muito mais preconceito. Por isso a importância de um grupo voltado às causas raciais e de orientação sexual.</p>
+                    <p>A criação do grupo é um marco histórico, já que cria uma segunda narrativa paralela à narrativa dos problemas enfrentados dos LGBT. Mostra como o negro e LGBT tem que lutar 2x contra o preconceito que ronda a sociedade brasileira.</p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="circle2"></div>
+                <h2 id="t_2019">2019: Chega de homofobia</h2>
+                <div class="p_history">
+                    <p>Foi apenas em 2019 que o STF declarou a homofobia e a transfobia como leis de crime de racismo. A decisão não prepara delegacias para o preconceito e a burocracia por trás dos atos violentos contra o movimento LGBT. Mas permite uma maior conscientização dos direitos. Sobretudo quando a comunidade é minoria no âmbito político.</p>
+                    <p>O ativista <strong>Washington Dias</strong> cita que não há como ignorar as estruturas raciais que estão por trás da homofobia no Brasil. Que a criminalização da homofobia é extremamente importante, principalmente para a comunidade negra. Afinal são eles quem sofre os maiores casos de violência.</p>
+                    <p>Para saber mais sobre a história LGBT leia no <a href="https://gamarevista.com.br/semana/orgulho-de-que/linha-do-tempo-direitos-lgbt-no-brasil-e-no-mundo/">Gama Revista.</a></p>
+                </div>
+            </div>
             <div class="line"></div>
-
-            <div class="circle2"></div>
         </div>
-    </div>
+    </div><!--Fim da Storytelling-->
+    
+    <a id="show">Leia Mais</a>
+    <a id="hide">Mostrar menos</a>
+
+    <h2 id="atual">Realidade LGBT no Brasil</h2>
+
+    <footer id="footer">
+        <div id="references">
+            <h6>Referências usadas na criação do projeto:</h6>
+            <ul id="bibliography">
+                <li><a href="https://gamarevista.com.br/semana/orgulho-de-que/linha-do-temp o-direitos-lgbt-no-brasil-e-no-mundo/">Gama Revista</a></li>
+                <li><a href="https://grupogaydabahia.com.br/relatorios-anuais-de-morte-de-lgbti/">Grupo Gay da Bahia</a></li>
+                <li><a href="https://diversitybbox.com/pt/bandeiras/">Diversity Bbox</a></li>
+            </ul>
+        </div>
+        <p>2020 &copy; Todos os direitos reservados</p>
+    </footer>
+<!--Jquery para funções em Javascript-->
+<script src="js/jquery-min.js"></script>
+<!--Jquery migrate para usar o Slick-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.js"></script>
+<!--Slick jquery para a customização do caroussel-->
+<script src="js/slick.min.js"></script>
+<script src="js/site.js"></script>
 </body>
 </html>
