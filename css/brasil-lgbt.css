@@ -9,7 +9,7 @@ a{
     text-decoration: none;
     color: #434A54;
 }
-@media screen and (min-device-width: 1024px) and (max-device-width: 4000px){
+@media all and (min-device-width: 1024px) and (max-device-width: 4000px){
     /**Modificações gerais*/
     header{
         margin: 0 15px;
@@ -93,7 +93,7 @@ a{
     }
 }
 
-@media screen and (min-device-width: 750px) and (max-device-width: 1023px){
+@media all and (min-device-width: 750px) and (max-device-width: 1023px){
     /**Modificações gerais*/
     header{
         margin: 0 15px;
@@ -174,7 +174,7 @@ a{
     }
 }
 
-@media screen and (min-device-width: 410px) and (max-device-width: 749px){
+@media all and (min-device-width: 410px) and (max-device-width: 749px){
     /**Modificações gerais*/
     header{
         margin: 0 15px;
