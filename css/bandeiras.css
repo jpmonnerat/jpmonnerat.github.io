@@ -8,7 +8,7 @@ a{
     text-decoration: none;
     color: #434A54;
 }
-@media screen and (min-device-width: 1024px){
+@media screen and (min-device-width: 1024px) and (max-device-width: 4000px){
     /**Modificações gerais*/
     header{
         margin: 0 15px;
