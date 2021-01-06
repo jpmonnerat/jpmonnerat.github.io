@@ -9,7 +9,7 @@ a{
     text-decoration: none;
     color: #434A54;
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 4000px){
+@media all and (min-device-width: 1024px) and (max-device-width: 4000px){
 /**Modificações gerais*/
 
 header{
@@ -280,7 +280,7 @@ h3{
 
 }
 
-@media only screen and (min-device-width: 760px) and (max-device-width: 1023px){
+@media all and (min-device-width: 760px) and (max-device-width: 1023px){
 
         /**Modificações gerais*/
     
@@ -559,7 +559,7 @@ h3{
     }
 }
 
-@media only screen and (min-device-width: 350px) and (max-device-width: 750px){
+@media all and (min-device-width: 30px) and (max-device-width: 750px){
 
 
         /**Modificações gerais*/
