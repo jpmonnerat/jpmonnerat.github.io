@@ -280,7 +280,7 @@ h3{
 
 }
 
-@media screen and (min-device-width: 700px) and (max-device-width: 1023px){
+@media screen and (min-device-width: 760px) and (max-device-width: 1023px){
 
         /**Modificações gerais*/
     
@@ -379,6 +379,7 @@ h3{
     #column p{
         margin-left: 15px;
         margin-right: 30px;
+        font-size: 12px;
         margin-bottom: 10px;
         text-align: left;
     }
@@ -558,7 +559,7 @@ h3{
     }
 }
 
-@media screen and (min-device-width: 410px) and (max-device-width: 699px){
+@media screen and (min-device-width: 410px) and (max-device-width: 750px){
 
 
         /**Modificações gerais*/

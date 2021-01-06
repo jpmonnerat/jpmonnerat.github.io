@@ -11,9 +11,7 @@ $("#hide").click(function(){
 
 $(".carousel").slick({
     infinite: true,
-    centerMode: true,
-    centerPadding: '120px',
-    slidesToShow: 2,
+    slidesToShow: 4,
     slidesToScroll: 1,
     variableWidth: true,
     responsive: [
@@ -22,7 +20,7 @@ $(".carousel").slick({
             setings: {
                 infinite: true,
                 centerMode: true,
-                centerPadding: '100px',
+                centerPadding: '80px',
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 variableWidth: true,
@@ -33,7 +31,7 @@ $(".carousel").slick({
             setings: {
                 infinite: true,
                 centerMode: true,
-                centerPadding: '80px',
+                centerPadding: '40px',
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 variableWidth: true,
