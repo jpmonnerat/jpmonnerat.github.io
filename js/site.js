@@ -67,6 +67,8 @@ $("#flags").slick({
             setings: {
                 infinite: true,
                 slidesToShow: 1,
+                centerMode: true,
+                centerPadding: '80px',
                 slidesToScroll: 1,
                 variableWidth: true,
             }
@@ -79,8 +81,8 @@ $("#flags").slick({
 $(".carousel-inf").slick({
     infinite: true,
     centerMode: true,
-    centerPadding: '120px',
-    slidesToShow: 2,
+    centerPadding: '20px',
+    slidesToShow: 1,
     slidesToScroll: 1,
     variableWidth: true,
     responsive: [
@@ -89,8 +91,8 @@ $(".carousel-inf").slick({
             setings: {
                 infinite: true,
                 centerMode: true,
-                centerPadding: '100px',
-                slidesToShow: 2,
+                centerPadding: '10px',
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 variableWidth: true,
             }
@@ -100,7 +102,7 @@ $(".carousel-inf").slick({
             setings: {
                 infinite: true,
                 centerMode: true,
-                centerPadding: '80px',
+                centerPadding: '5px',
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 variableWidth: true,

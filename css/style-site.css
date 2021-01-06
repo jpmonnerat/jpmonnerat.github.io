@@ -5,7 +5,10 @@ body{
     margin: 0px;
     background-color: #f2f2f2;
 }
-
+a{
+    text-decoration: none;
+    color: #434A54;
+}
 @media screen and (min-device-width: 1024px){
 /**Modificações gerais*/
 
