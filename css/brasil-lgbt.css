@@ -174,7 +174,7 @@ a{
     }
 }
 
-@media all and (min-device-width: 410px) and (max-device-width: 749px){
+@media all and (min-device-width: 100px) and (max-device-width: 749px){
     /**Modificações gerais*/
     header{
         margin: 0 15px;

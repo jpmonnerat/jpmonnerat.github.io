@@ -559,7 +559,7 @@ h3{
     }
 }
 
-@media all and (min-device-width: 30px) and (max-device-width: 750px){
+@media all and (min-device-width: 100px) and (max-device-width: 750px){
 
 
         /**Modificações gerais*/
